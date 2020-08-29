@@ -4,7 +4,7 @@ describe('testing index', () => {
 
     test('debe retornar un numero', () => {
 
-        const result = suma(1, 5);
+        const result = suma(1, 10);
         expect(typeof result).toBe('number');
 
     });
